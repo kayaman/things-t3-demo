@@ -55,5 +55,5 @@ yarn-error.log*
 *.sw?
 
 _prettier.config.cjs
-
+**/*.bkp
 ARTICLE.md

@@ -1,0 +1,13 @@
+version: '1.1'
+name: tRPC
+tests:
+  example:
+    steps:
+      - name: Query
+        http:
+          url: http://localhost:3000/api/trpc
+          trpc:
+            query:
+              things/all: all
+          check:
+            status: 200
